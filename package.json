@@ -1,0 +1,17 @@
+{
+  "name": "esbuild-plugin-emcc",
+  "version": "0.0.0",
+  "description": "A plugin for esbuild that enables importing emcc compiled Wasm.",
+  "repository": "github:graysonlang/esbuild-plugin-emcc",
+  "author": "Grayson Lang",
+  "license": "MIT-0",
+  "exports": {
+    ".": {
+      "import": "./esbuild-plugin-emcc.mjs",
+      "require": "./esbuild-plugin-emcc.cjs"
+    }
+  },
+  "dependencies": {
+    "freshness": "github:/graysonlang/freshness"
+  }
+}
